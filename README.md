@@ -18,9 +18,11 @@ Welcome to the OutStem front-end challenge. Submission instructions are listed b
 
 ## The Challenge
 
-The challenge is to build a "Rate My Dog" application that wraps the existing [Dog API](https://dog.ceo/dog-api/) (Sorry to the cat people!). The design and layout of the website is totally up to you, though you will be judged on the look, feel, and usability of your application, so do your best to respect best practices in web design.
+The challenge is to build a "Rate My Dog" application that wraps the existing [Dog API](https://dog.ceo/dog-api/). This is meant to be a fun app where users can rate dogs from 10/10 to 15/10 (as dogs are amazing), inspired by the [WeRateDogs](https://twitter.com/dog_rates) twitter account.
 
-This is meant to be a fun app where users can rate dogs from 10/10 to 15/10 (as all dogs are amazing), inspired by the [WeRateDogs](https://twitter.com/dog_rates) twitter account
+The design and layout of the website is totally up to you, though you will be judged on the look, feel, and usability of your application, so do your best to respect best practices in web design.
+
+
 
 
 ## Goals
