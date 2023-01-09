@@ -32,7 +32,7 @@ The design and layout of the website is totally up to you, though you will be ju
 This challenge has multiple goals that increase in level of difficulty, implement as many of these goals as you are able to.
 
 ### Goal 1
-Fetch and display a random dog image from the API, and display it on the page.
+Fetch a random dog image from the API and display it on the page.
 
 Use the [random](https://dog.ceo/dog-api/documentation/random) endpoint of the API for this.
 
