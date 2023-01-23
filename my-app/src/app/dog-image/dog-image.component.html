@@ -1,0 +1,14 @@
+<p>dog-image works!</p>
+<!--Goal 1 Fetch a random dog image from the API and display it on the page.-->
+<img [src]="dogImageUrl" alt="Dog image">
+
+<!--Goal 2 Add a form element that lets users submit their rating, along with a submit button-->
+<form (ngSubmit)="submitRating()">
+  <input type="text" [(ngModel)]="rating" name="rating">
+  <button type="submit">Submit</button>
+</form>
+<!--Goal 6: Add an option to filter the random dogs being provided by breed, using the list of dog breeds in the provided file-->
+<select [(ngModel)]="selectedBreed">
+    <option *ngFor="let breed of breeds" [value]="breed">{{breed}}</option>
+  </select>
+  <button (click)="fetchRandomDogImageByBreed()">Fetch random dog</button>

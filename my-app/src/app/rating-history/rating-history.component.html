@@ -1,0 +1,9 @@
+<p>rating-history works!</p>
+<!--Goal 4: Add a section to your app where you can review the history of your dog ratings with both the picture and rating -->
+<div *ngFor="let rating of ratings">
+    <img [src]="rating.image" alt="Dog image">
+    <p>Rating: {{rating.rating}}</p>
+  </div>
+<!--Goal 5: Add sorting to your ratings history by highest rated and lowest rated. -->
+<button (click)="sortRatings(true)">Sort by lowest rating</button>
+<button (click)="sortRatings(false)">Sort by highest rating</button>
